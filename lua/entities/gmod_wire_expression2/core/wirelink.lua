@@ -319,7 +319,7 @@ end
 
 /******************************************************************************/
 
-__e2setcost(5) -- temporary
+__e2setcost(1) -- temporary
 
 e2function number wirelink:writeCell(address, value)
 	if not validWirelink(self, this) then return 0 end
